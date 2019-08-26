@@ -1,0 +1,150 @@
+*{
+    font-family: 'Source Code Pro', monospace;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: #487eb0;
+}
+
+h1{
+    text-align: center;
+    color: #dcdde1;
+    padding: 20px;
+}
+i
+{
+    color: crimson;
+}
+p
+{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+main
+{
+    width: 90%;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+    padding:  60px;
+    background-color: #40739e;
+    box-shadow: 0px 0px 20px black;
+   
+}
+div
+{
+    width: 220px;
+    height: 220px;
+    box-shadow: 2px 2px 10px gray;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 2px solid black;
+    padding: 50px;
+    box-shadow: 0px 0px 20px black;
+}
+div .f,.g,.h,.i,.j
+{
+    margin-top: 40px;
+}
+
+.a
+{
+    background-image: url(Images/image1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.b
+{
+    background-image: url(Images/image2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.c
+{
+    background-image: url(Images/image3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.d
+{
+    background-image: url(Images/image4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.e
+{
+    background-image: url(Images/image5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.f
+{
+    background-image: url(Images/image6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.g
+{
+    background-image: url(Images/image7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.h
+{
+    background-image: url(Images/image8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.i
+{
+    background-image: url(Images/image9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.j
+{
+    background-image:url(Images/image10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/*to rotate the div while music is on*/
+
+.circle
+{
+    animation: rotation 2s linear infinite;
+}
+
+    @keyframes rotation
+    {
+        from
+        {
+            transform: rotate(0deg);
+        }
+        to
+        {
+            transform: rotate(360deg);
+        }
+    }
